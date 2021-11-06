@@ -1,0 +1,29 @@
+.title {
+    font-size: 30px;
+    padding: 10px;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+.textarea {
+    box-sizing: border-box;
+    width: 35%;
+    height: 200px;
+    margin: 10px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin-left: 10px;
+    width: 35%;
+    height: 45px;
+}
+
+.flex-container > button {
+    width: 120px;
+    text-align: center;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-size: 15px;
+}
